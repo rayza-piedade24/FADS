@@ -1,10 +1,10 @@
 |Platform| URL| Path to API information| Documentation URL|API URL |Data Format |
 |--|---------|---------|---------|---------|---------|
-|GBIF | https://www.gbif.org/ | item 2  | https://techdocs.gbif.org/en/openapi/  |https://api.gbif.org/  |JSON|
-|Eurostat| https://ec.europa.eu/eurostat/  | item 5  | https://ec.europa.eu/eurostat/web/query-builder/background  |item 3  |JSON |
-|INE | https://www.ine.pt/  | item 5  | item 6  |item 3  |item 3  |
-|Climate Data Store| https://cds.climate.copernicus.eu/cdsapp#!/home  | item 5  | https://cds.climate.copernicus.eu/how-to-api |item 3  |several |
-| Copernicus Open Access Hub| https://scihub.copernicus.eu/ | item 5  | item 6  |item 3  |item 3  |
-|WMO | https://worldweather.wmo.int/en/home.html  | item 2  | item 3  |item 3  |item 3  |
-|Agri4Cast| https://agri4cast.jrc.ec.europa.eu/DataPortal/  | item 2  | item 3  |item 3  |item 3  |
-|European Environment Agency | https://www.eea.europa.eu/ | item 2  | item 3  |item 3  |item 3  |
+|GBIF | https://www.gbif.org/ | Home -» Get data -» GBIF API -» GBIF API Reference  | https://techdocs.gbif.org/en/openapi/  |https://api.gbif.org/v1/occurrence/search?year=1800,1899 |JSON|
+|Eurostat| https://ec.europa.eu/eurostat/  | Home -» Help -» User Guides -» Data Browser -» Data Access via API | https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access  |https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?format=JSON  |JSON |
+|INE | https://www.ine.pt/  | Home -» Resources (Services, Feeds and API's)  | https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_api&INST=322751522&ine_smenu.boui=357197120&ine_smenu.selected=357197822&ine_smenu.boui=357197120&ine_smenu.selected=357197822 |https://www.ine.pt/ine/json_indicador/pindica.jsp?op=2&varcd=0008074&Dim1=S7A2015&Dim2=200&Dim3=3&lang=EN  | JSON  |
+|Climate Data Store| https://cds.climate.copernicus.eu/cdsapp#!/home  | Home -» User guide -» Get Data Programmatically  | https://cds.climate.copernicus.eu/how-to-api | NA  | Several |
+| Copernicus Open Access Hub| https://scihub.copernicus.eu/ | Home -» API Hub  | https://scihub.copernicus.eu/twiki/do/view/SciHubUserGuide/ODataAPI#Download_full_product_knowing_it |https://scihub.copernicus.eu/dhus/odata/v1/Products('2b17b57d-fff4-4645-b539-91f305c27c69')/Nodes('S1A_IW_SLC__1SDV_20160117T103451_20160117T103518_009533_00DD94_D46A.SAFE')/Nodes('manifest.safe')/$value |Serveral  |
+|WMO | https://worldweather.wmo.int/en/home.html  | Home -» Support -» Download  | https://worldweather.wmo.int/en/dataguide.html  | https://worldweather.wmo.int/en/json/278_en.json| JSON  |
+|Agri4Cast| https://agri4cast.jrc.ec.europa.eu/DataPortal/  | NA  | NA  |NA  |NA  |
+|European Environment Agency | https://www.eea.europa.eu/ | Home -» Codes and APIs for Developers -» API | https://www.eea.europa.eu/code/api  |https://www.eea.europa.eu/publications/eu-emission-inventory-report-1990-2009  | Several  |
